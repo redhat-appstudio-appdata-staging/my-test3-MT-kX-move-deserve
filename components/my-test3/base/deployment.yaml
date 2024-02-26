@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: my-test3
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads-stage/mkosiarc-tenant/my-test3/my-test3@sha256:78b98d4c248b25718bcdcbc76e8d6e5ba0ea0a19cf47fc9471a53adb6f530ea1
         imagePullPolicy: Always
         name: container-image
         ports:
